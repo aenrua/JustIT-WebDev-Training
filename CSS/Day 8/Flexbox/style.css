@@ -1,0 +1,80 @@
+/* Base Styling */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 15px;
+}
+
+.box1 {
+    background-color: #ff4757;
+}
+
+.box2 {
+    background-color: #1e90ff;
+}
+
+.box3 {
+    background-color: #2ed573;
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 800px;
+}
+
+/* Flexbox Code */
+.container {
+    display: flex;
+    /* Flex-direction - Controls main axis */
+    /* Set to "row" by default */
+    /* flex-direction: column; */
+
+    /* Flex-wrap - Controls how or if elements will wrap if the container is too small to fit them */
+    /* Set to "nowrap" by default setting */
+    flex-wrap: wrap;
+
+    /* Justify-content - Controls how elements are distributed across the main axis */
+    /* Set to "flex-start" by default */
+    /* justify-content: center; */
+
+    /* Align-items - Controls how elements are aligned on the secondary axis */
+    /* Set to "stretch" by default */
+    /* align-items: center; */
+
+    /* Align-content - Controls how elements are aligned on the secondary axis *ONLY* when "flex-wrap" is in effect */
+    /* align-content: space-between; */
+}
+
+.box1 {
+    /* Align-self - Allow alignment of individual items */
+    /* align-self: center; */
+
+    /* Flex-basis - Sets a minimum width for our elements if the container provides enough space */
+    flex-basis: 200px;
+
+    /* Flex-grow - Takes a number value */
+    /* Sets the rate at which an element will grow into available space */
+    /* flex-grow: 1; */
+
+    /* Flex-shrink - The reverse of "flex-grow" */
+    flex-shrink: 2;
+}
+
+.box2 {
+    flex-basis: 200px;
+}
+
+.box3 {
+    flex-basis: 200px;
+}

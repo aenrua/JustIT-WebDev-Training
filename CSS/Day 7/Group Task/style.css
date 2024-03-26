@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Make the wrapper an inline-block, so that the description shows only when it's hovered over (as opposed to the whole width of the page) */
+#wrapper {
+    display: inline-block;
+}
+
+/* Style the description */
+.description {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Hide the description (and set it's transition behaviour) */
+#wrapper .description {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+/* On hovering over the wrapper, the description should show */
+#wrapper:hover .description {
+    visibility: visible;
+    opacity: 1;
+}

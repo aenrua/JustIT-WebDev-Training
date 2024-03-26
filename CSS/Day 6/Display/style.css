@@ -1,0 +1,16 @@
+h1 {
+    background-color: aqua;
+    height: 100px;
+    display: none;
+}
+
+span {
+    background-color: crimson;
+    color: white;
+    /* height: 100px; */
+    /* display: inline-block; */
+}
+
+img {
+    height: 250px;
+}
