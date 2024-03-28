@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h2>Basic Calculator</h2>
+    <form class="container calculator">
+        <div id="inputBoxes">
+            <input type="text" id="numberone">
+            <p style="display: inline"></p>
+            <input type="text" id="numbertwo" />
+        </div>
+        <br>
+        <div id="buttons">
+            <input type="button" id="addbtn" value="ADD" onclick="calculate('add')" />
+            <input type="button" id="subbtn" value="SUBTRACT" onclick="calculate('subtract')" />
+            <input type="button" id="multibtn" value="MULTIPLY" onclick="calculate('multiply')" />
+            <input type="button" id="divbtn" value="DIVIDE" onclick="calculate('divide')" />
+        </div>
+        <br>
+        <div id="resultBox">
+            <input type=" text" id="result" disabled /> <!-- JS will create a value and insert the result -->
+            <input type="reset" id="reset" name="reset">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.aboutus {
+    border: solid;
+    border-color: dodgerblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.price,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid;
+    border-color: dodgerblue;
+    width: 600px;
+    padding: 10px;
+}
+
+th {
+    font-size: 18px;
+}
+
+td:nth-child(1),
+td:nth-child(3) {
+    text-align: center;
+}
+
+.location {
+    background-color: darkgreen;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+#footer {
+    background-color: dodgerblue;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}

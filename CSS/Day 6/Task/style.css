@@ -1,0 +1,83 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 35px 40px;
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+#video {
+    margin: 0px auto 0px;
+}
+
+.aboutus {
+    border: solid;
+    border-bottom: 0;
+    border-color: dodgerblue;
+    margin: 0 300px 0;
+    padding: 20px;
+}
+
+table {
+    margin: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid;
+    border-color: dodgerblue;
+    width: 600px;
+    padding: 10px;
+}
+
+th {
+    font-size: 18px;
+}
+
+td:nth-child(1),
+td:nth-child(3) {
+    text-align: center;
+}
+
+.location {
+    background-color: darkgreen;
+    color: white;
+    margin: 0px auto 0px;
+    padding: 20px 150px;
+}
+
+#map {
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}

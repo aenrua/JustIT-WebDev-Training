@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Task</title>
+</head>
+
+<body>
+    <h1>Forms Task</h1>
+    <form action="confirmation.html">
+        <!-- Radio buttons -->
+        <p>What is your age?</p>
+        <label for="range1">18-25</label>
+        <input id="range1" type="radio" name="age-range" required>
+        <label for="range2">26-30</label>
+        <input id="range2" type="radio" name="age-range">
+        <label for="range3">30-45</label>
+        <input id="range3" type="radio" name="age-range">
+        <label for="range4">45+</label>
+        <input id="range4" type="radio" name="age-range">
+        <br>
+        <br>
+        <!-- Checkboxes -->
+        <p>What type of license do you hold? Pick all that apply.</p>
+        <label for="type1">None</label>
+        <input id="type1" type="checkbox">
+        <label for="type2">Provisional Driving License</label>
+        <input id="type2" type="checkbox">
+        <label for="type3">Full Driving License</label>
+        <input id="type3" type="checkbox">
+        <br>
+        <label for="type4">Full motorbike license</label>
+        <input id="type4" type="checkbox">
+        <label for="type5">HGV</label>
+        <input id="type5" type="checkbox">
+        <label for="type6">Other (please state)</label>
+        <input id="type6" type="checkbox">
+        <input id="type6" type="text">
+        <br>
+        <br>
+        <!-- File upload input -->
+        <p>Click on the button below to upload a copy of you CV:</p>
+        <input id="passport" type="file" required>
+        <br>
+        <br>
+        <!-- Textarea -->
+        <p><label for="skills"></label>In less than 200 words, please describe what your top skills are:</p>
+        <textarea name="skills" id="skills" cols="50" rows="4" maxlength="1000"
+            placeholder="Enter your response here."></textarea>
+        <br>
+        <br>
+        <!-- Dropdown list -->
+        <p>What is your employment status?</p>
+        <label for="employment">I am currently:</label>
+        <select name="employment" id="employment" required>
+            <option disable selected value>-- Select an option --</option>
+            <option value="workingPart">Working part-time</option>
+            <option value="workingFull">Working full-time</option>
+            <option value="contract">On a contract</option>
+            <option value="studyingPart">In part-time education</option>
+            <option value="studyingFull">In full-time education</option>
+        </select>
+        <br>
+        <br>
+        <input type="reset" value="Clear">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
